@@ -1,9 +1,9 @@
 const expenseRoutes = require("/expenses");
-const purchaseRoutes = require("/purchases");
+const purchaseRoutes = require("/income");
 const homeRoute = require("/home");
 const constructorMethod = (app) => {
   app.use("/", homeRoute);
-  app.use("/purchases", purchaseRoute);
+  app.use("/income", purchaseRoute);
   app.use("/expenses", expenseRoutes);
 
   app.get("*", (req, res) => {
