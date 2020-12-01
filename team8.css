@@ -1,0 +1,192 @@
+body{
+    background-color: snow;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding:0;
+    margin:0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: snow;
+    font-size: 15px;
+    padding-top: 20px;
+  }
+
+nav{
+  text-align:left;
+  width: 100%;
+  margin-bottom:50px;
+  height: 10px;
+}
+
+li{
+  padding: 25px;
+  font-size: 20px;
+  text-align:left;
+  display: inline;
+}
+
+p{
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  padding: 20px;
+}
+
+/* unvisited link */
+a:link {
+  color:dimgray;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color:dimgray;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: dimgray;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: dimgray;
+  text-decoration: none;
+}
+
+.dotcontainer{
+    width: 100%;
+    background-color:darkslategray;
+    color:white;
+    margin: 0%;
+}
+
+h1{
+    color: darkslategray;
+    margin-bottom:60px;
+    margin-left:25px;
+    margin-top:75px;
+    font-size: 50px;
+}
+
+.dot {
+  height: 200px;
+  width: 200px;
+  background-color: snow;
+  border-radius: 50%;
+  display: inline-block;
+  padding:25px;
+  margin:100px;
+  margin-top:50px;
+  align-items: center;
+  }
+
+.flexcontainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  width:100%;
+}
+
+.principles{
+  margin-left: 20px;
+  text-transform: uppercase;
+  line-height: 2;
+}
+
+.principlestext{
+  line-height:200%; 
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.formdiv{
+  width:50%;
+  height:350px;
+  background:snow;
+  border-radius:25px;
+  padding:35px 35px 65px 35px;
+  margin-top:75px;
+  margin-bottom: 50px;
+}
+
+.formdivcontainer{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.formtext{
+  text-transform: uppercase;
+  color:dimgray;
+  text-align: left;
+}
+
+#submit{
+  background-color: snow;
+  border: 1px solid dimgray;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+  color: dimgray;
+  padding: 10px 50px 10px 50px;
+  font-size: 15px;
+  margin-left:74%;
+
+}
+
+#email{
+  height: 30px;
+  width: 95%;
+  margin: 10px 0 10px 0;
+}
+
+.logindiv{
+  width:25%;
+  height:300px;
+  background: snow;
+  border-radius: 25px;
+  padding:35px;
+  margin-top:75px;
+  margin-bottom: 75px;
+}
+
+.logindivcontainer{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.message{
+  height:225px;
+  width: 95%;
+  margin: 10px 0 10px 0;
+}
+
+#submit2{
+  background-color: snow;
+  border: 1px solid dimgray;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+  color: dimgray;
+  padding: 10px 50px 10px 50px;
+  font-size: 15px;
+  margin-left: 28%;
+  margin-top: 10px;
+}
